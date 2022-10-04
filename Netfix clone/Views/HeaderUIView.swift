@@ -30,7 +30,7 @@ class HeaderUIView: UIView {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
-        imageView.image = UIImage(named: "DBSSH_poster_with_new_release_date")
+        imageView.image = UIImage(named: "Header")
         return imageView
     }()
     private func addGradient(){

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B479122A28EB644200070F3E /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B479122928EB644200070F3E /* TitleCollectionViewCell.swift */; };
+		B479122D28EB668D00070F3E /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = B479122C28EB668D00070F3E /* SDWebImage */; };
+		B479122F28EB668D00070F3E /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B479122E28EB668D00070F3E /* SDWebImageMapKit */; };
+		B479123128EB6C0300070F3E /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B479123028EB6C0300070F3E /* Extentions.swift */; };
+		B479123728EB7EA500070F3E /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = B479123628EB7EA500070F3E /* Title.swift */; };
 		B4B605AC28E9EABF00F1BA68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B605AB28E9EABF00F1BA68 /* AppDelegate.swift */; };
 		B4B605AE28E9EABF00F1BA68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B605AD28E9EABF00F1BA68 /* SceneDelegate.swift */; };
 		B4B605B028E9EABF00F1BA68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B605AF28E9EABF00F1BA68 /* ViewController.swift */; };
@@ -18,10 +23,14 @@
 		B4B605C728E9EEEF00F1BA68 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B605C628E9EEEF00F1BA68 /* DownloadsViewController.swift */; };
 		B4B605D328E9F95300F1BA68 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B605D228E9F95300F1BA68 /* CollectionViewTableViewCell.swift */; };
 		B4B605D528EA027100F1BA68 /* HeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B605D428EA027100F1BA68 /* HeaderUIView.swift */; };
+		B4B605DD28EA281300F1BA68 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B605DC28EA281300F1BA68 /* APICaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B4B605A828E9EABF00F1BA68 /* Moshi Moshi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moshi Moshi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B479122928EB644200070F3E /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		B479123028EB6C0300070F3E /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		B479123628EB7EA500070F3E /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		B4B605A828E9EABF00F1BA68 /* Metflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4B605AB28E9EABF00F1BA68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4B605AD28E9EABF00F1BA68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B4B605AF28E9EABF00F1BA68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +43,7 @@
 		B4B605C628E9EEEF00F1BA68 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		B4B605D228E9F95300F1BA68 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		B4B605D428EA027100F1BA68 /* HeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderUIView.swift; sourceTree = "<group>"; };
+		B4B605DC28EA281300F1BA68 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B479122F28EB668D00070F3E /* SDWebImageMapKit in Frameworks */,
+				B479122D28EB668D00070F3E /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +70,7 @@
 		B4B605A928E9EABF00F1BA68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B4B605A828E9EABF00F1BA68 /* Moshi Moshi.app */,
+				B4B605A828E9EABF00F1BA68 /* Metflix.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +110,7 @@
 			children = (
 				B4B605D228E9F95300F1BA68 /* CollectionViewTableViewCell.swift */,
 				B4B605D428EA027100F1BA68 /* HeaderUIView.swift */,
+				B479122928EB644200070F3E /* TitleCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -112,6 +125,7 @@
 		B4B605CB28E9F86E00F1BA68 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B479123628EB7EA500070F3E /* Title.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -119,6 +133,7 @@
 		B4B605CC28E9F88D00F1BA68 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
+				B479123028EB6C0300070F3E /* Extentions.swift */,
 			);
 			path = Resourses;
 			sourceTree = "<group>";
@@ -126,6 +141,7 @@
 		B4B605CD28E9F89B00F1BA68 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				B4B605DC28EA281300F1BA68 /* APICaller.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -146,8 +162,12 @@
 			dependencies = (
 			);
 			name = "Netfix clone";
+			packageProductDependencies = (
+				B479122C28EB668D00070F3E /* SDWebImage */,
+				B479122E28EB668D00070F3E /* SDWebImageMapKit */,
+			);
 			productName = "Netfix clone";
-			productReference = B4B605A828E9EABF00F1BA68 /* Moshi Moshi.app */;
+			productReference = B4B605A828E9EABF00F1BA68 /* Metflix.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -174,6 +194,9 @@
 				Base,
 			);
 			mainGroup = B4B6059F28E9EABF00F1BA68;
+			packageReferences = (
+				B479122B28EB668D00070F3E /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = B4B605A928E9EABF00F1BA68 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -203,9 +226,13 @@
 				B4B605C528E9EEB200F1BA68 /* SearchViewController.swift in Sources */,
 				B4B605B028E9EABF00F1BA68 /* ViewController.swift in Sources */,
 				B4B605D328E9F95300F1BA68 /* CollectionViewTableViewCell.swift in Sources */,
+				B4B605DD28EA281300F1BA68 /* APICaller.swift in Sources */,
 				B4B605D528EA027100F1BA68 /* HeaderUIView.swift in Sources */,
+				B479122A28EB644200070F3E /* TitleCollectionViewCell.swift in Sources */,
 				B4B605C728E9EEEF00F1BA68 /* DownloadsViewController.swift in Sources */,
+				B479123728EB7EA500070F3E /* Title.swift in Sources */,
 				B4B605AC28E9EABF00F1BA68 /* AppDelegate.swift in Sources */,
+				B479123128EB6C0300070F3E /* Extentions.swift in Sources */,
 				B4B605AE28E9EABF00F1BA68 /* SceneDelegate.swift in Sources */,
 				B4B605C328E9EE5900F1BA68 /* UpcomingViewController.swift in Sources */,
 				B4B605C028E9EDA000F1BA68 /* HomeViewController.swift in Sources */,
@@ -360,7 +387,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SohamAthawale.21BCE3247.Netfix-clone";
-				PRODUCT_NAME = "Moshi Moshi";
+				PRODUCT_NAME = Metflix;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -387,7 +414,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SohamAthawale.21BCE3247.Netfix-clone";
-				PRODUCT_NAME = "Moshi Moshi";
+				PRODUCT_NAME = Metflix;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -416,6 +443,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B479122B28EB668D00070F3E /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B479122C28EB668D00070F3E /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B479122B28EB668D00070F3E /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		B479122E28EB668D00070F3E /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B479122B28EB668D00070F3E /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B4B605A028E9EABF00F1BA68 /* Project object */;
 }
